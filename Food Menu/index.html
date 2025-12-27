@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Food Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-light bg-info">
+  <a class="navbar-brand text-white font-weight-bold" href="#">
+    Food Corner
+  </a>
+
+  <button class="navbar-toggler bg-light" type="button"
+          data-toggle="collapse"
+          data-target="#mainNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link text-white" href="#chicken">Chicken</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#beef">Beef</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#sushi">Sushi</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Content -->
+<div class="container my-5">
+  <h2 class="text-center mb-5">Today's Special Menu</h2>
+
+  <div class="row">
+
+    <div class="col-lg-4 col-md-6 mb-4" id="chicken">
+      <div class="card h-100">
+        <div class="card-header bg-warning text-center font-weight-bold">
+          Chicken
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Spicy and crispy chicken dishes served hot and fresh with authentic taste.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4" id="beef">
+      <div class="card h-100">
+        <div class="card-header bg-danger text-white text-center font-weight-bold">
+          Beef
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Tender beef meals cooked slowly to preserve flavor and richness.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12 mb-4" id="sushi">
+      <div class="card h-100">
+        <div class="card-header bg-success text-white text-center font-weight-bold">
+          Sushi
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Handcrafted sushi rolls made with premium rice and fresh seafood.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
